@@ -7,9 +7,3 @@ def home(request):
     return render(request, 'recipes/home.html', context={
         'name': 'Matheus Morais'
     })
-
-def contato(request): 
-    return render(request, 'recipes/contato.html')
-
-def my_view(request): 
-    return HttpResponse('Ola Mundo')
